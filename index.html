@@ -9,7 +9,7 @@
   <script src="https://unpkg.com/vue@next"></script>
   <!-- AXIOS LINK -->
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  
+  <link rel="stylesheet" href="./css/app.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body style="background-color: rgb(186, 184, 181);">
@@ -19,16 +19,18 @@
 
     <div class="row">
 
-      <div class="col-10 mt-5 d-flex flex-column">
+      <div class="col-10 mt-5 d-flex flex-column text-center">
 
-          <!-- GENERATORE EMAIL -->
-          <h1 class="text-danger text-center">Generatore di email casuali</h1>
+          <!-- LOGO GMAIL -->
+          <div class="text-center">
+          <img src="./img/Gmail_logo.max-2800x2800.png" alt="gmail">
+          </div>
 
           <!-- BOTTONE GENERATORE EMAIL -->
-          <button class="btn btn-primary mt-4 bg-danger" id="generateBtn" >Genera indirizzi email casuali cliccando qui!</button>
-
+          <button class="button" id="generateBtn" >Generatore casuale di email: clicca qui!</button>
           <!-- LISTA EMAIL -->
-          <ul id="emailList">
+          <ul id="emailList" class="list-group list-unstyled mt-5 text-center">
+            
            
           </ul>
 

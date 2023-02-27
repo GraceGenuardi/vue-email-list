@@ -19,6 +19,15 @@ generateBtn.addEventListener('click', () => {
 		axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
         
 	])
+	.then(axios.spread((...responses) => {
+		//3-Ciclo for per generare e stampare un elenco di email casuali
+		for (let response of responses) {
+			let email = response.data.response;
+			let listItem = document.createElement('li');
+			listItem.innerText = email;
+			emailList.appendChild(listItem);
+		}
+	}))
 	
 });
 

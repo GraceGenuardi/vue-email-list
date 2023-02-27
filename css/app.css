@@ -1,0 +1,29 @@
+#emailList {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  #emailList li {
+    margin: 10px 0;
+    color: rgb(248, 24, 24);
+    font-size: 20px;
+    font-weight: 500  ;
+    border-bottom: 1px solid rgb(40, 40, 40);
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .button {
+    background-color: #EA4335;
+    border: 1px solid #EA4335;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration:underline;
+    text-transform: uppercase;
+  }
